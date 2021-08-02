@@ -1,0 +1,156 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner-text h1{
+    font-size: 32px;
+  }
+  .banner-text button{
+    padding: 14px 30px;
+  }
+  .cat-box{
+    display: block;
+  }
+  .works{
+    padding:100px 0px;
+  }
+  .wtext h1{
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .works-details h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .works-details p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 14px;
+  } 
+  .works-details button{
+    text-align: center;
+    margin-left:90px;
+   
+
+  }
+  .about{
+    display: block;
+  }
+  .right h1{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .right{
+    padding-left: 0px;
+  }
+  .right p{
+    font-size: 14px;
+    text-align: center;
+    margin-left:6px; 
+    margin-right:6px;
+    margin-top:10px;
+    margin-bottom:20px;
+    line-height: 28px;
+  }
+  .about-stat{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .right button{
+    margin-left: 90px;
+    margin-bottom: 40px;
+  }
+  .interior i{
+    font-size: 50px;
+  }
+  .interior p{
+    font-size: 14px;
+    line-height: 26px;
+    margin:30px;
+    margin-top: 90px;
+  }
+  .instagram{
+    padding:90px 0px;
+  }
+  .insta-text h1{
+    margin-bottom: 40px;
+  }
+  .query-text h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .query-number h1{
+    font-size:26px;
+    text-align: center;
+  }
+  .query-number {
+    text-align: center;
+  }
+  .adress{
+    text-align: center;
+  }
+  .footer p{
+    text-align: center;
+  }
+ }
